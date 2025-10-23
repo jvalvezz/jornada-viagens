@@ -1,0 +1,6 @@
+/* RESET */
+body, img, h1, h2, p, ul, li, a, button, fieldset, legend, label, input, textarea, select, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
