@@ -1,6 +1,8 @@
 .offers-cards {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .offers-cards .card {
