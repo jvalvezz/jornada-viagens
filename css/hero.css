@@ -6,8 +6,11 @@
 }
 
 .hero h2 {
-  padding: 88px 60px;
-  margin: 0px;
+  padding-top: 32px;
+  padding-bottom: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
   font-weight: var(---text-weight);
   font-size: 20px;
   text-align: center;
@@ -23,7 +26,9 @@
   }
 
   .hero h2 {
-    padding: 88px 60px;
+    padding-top: 88px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
@@ -35,7 +40,9 @@
   }
 
   .hero h2 {
-    padding: 88px 120px;
+    padding-top: 88px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -47,6 +54,8 @@
   }
 
   .hero h2 {
-    padding: 88px 160px;
+    padding-top: 88px;
+    padding-left: 160px;
+    padding-right: 160px;
   }
 }
