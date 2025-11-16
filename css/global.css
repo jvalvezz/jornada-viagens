@@ -59,6 +59,7 @@ h1 {
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
+  padding-top: 88px;
 }
 
 .section-title hr {
@@ -80,7 +81,6 @@ h1 {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
-
 }
 
 @media screen and (min-width: 768px) {
