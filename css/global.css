@@ -58,6 +58,7 @@ h1 {
   font-size: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
+  text-align: center;
 }
 
 .section-title hr {

@@ -1,3 +1,8 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   color: var(--text-secondary-color);
   background-color: black;
@@ -34,19 +39,61 @@
   display: inline-block;
 }
 
+.card.japan {
+  background-color: aqua;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background-color: rgb(0, 124, 124);
+  background-size: cover;
+}
+
+.card.paraiba {
+  background-color: rgb(1, 167, 76);
+  background-size: cover;
+}
+
+.card.manaus {
+  background-color: rgb(12, 255, 12);
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .card {
-    width: 580px;
+    width: 420px;
     height: 320px;
   }
 
   .card header h3 {
     font-size: 48px;
-
   }
 
   .card header span {
     font-size: 40px;
-
   }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+    width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .offers-cards {
+        width: 1250px;
+        margin: 0 auto;
+    }
 }
